@@ -1,1 +1,3 @@
-
+[capture](params){
+  return stuff;
+}
