@@ -7,3 +7,8 @@
 // Advanced topics
 
 // Curiosly recurring template patern (CRTP) https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+
+
+// recursive "down the hierarchy" template
+// Like curiously recurring template, but what if the template is of a different class? class Derived: Base<Derived, Other>
+// can do both CRTP and this "down the hierarchy" passing scheme
