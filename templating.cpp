@@ -7,6 +7,8 @@
 // Advanced topics
 
 // Curiosly recurring template patern (CRTP) https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+// Allows a cool "interface" -- more like you can define a function in the Base class that uses functions NOT defined in the Base class 
+// (through the power of templating). You can use these undefined functions in a commonly used utility function for instance. 
 
 
 // recursive "down the hierarchy" template
